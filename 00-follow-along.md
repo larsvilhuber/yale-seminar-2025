@@ -19,4 +19,4 @@
 
 ::::
 
-[larsvilhuber.github.io/yale-seminar-2025/](https://larsvilhuber.github.io/yale-seminar-2025/)
+[`r WEBSITE_SHORT`](`r WEBSITE_URL`)
