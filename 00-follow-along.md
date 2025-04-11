@@ -19,4 +19,4 @@
 
 ::::
 
-[lars.vilhuber.com/p/yale2025/](https://lars.vilhuber.com/p/yale2025/)
+[larsvilhuber.github.io/yale-seminar-2025/](https://larsvilhuber.github.io/yale-seminar-2025/)

@@ -97,12 +97,12 @@ jobs:
       with:
             path: .
             pattern: artifact-presentation-pdf
+    # Adjust this to reflect what you are posting
     - name: Move stuff
       run: |
           ls -lR
-          mkdir website
-          mv artifact-presentation website/presentation
-          mv artifact-presentation-pdf/index.pdf website/presentation/presentation.pdf
+          mv artifact-presentation website
+          mv artifact-presentation-pdf/index.pdf website/presentation.pdf
     # Prepare the GitHub Pages action
     - name: prepare GitHub Pages action
       uses: actions/upload-pages-artifact@v3.0.1    
