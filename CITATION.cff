@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Reproducibility: Best Practices
+message: >-
+  Presented at Yale Economics Department 11 April 2025
+type: presentation
+authors:
+  - given-names: Lars
+    family-names: Vilhuber
+    email: lars.vilhuber@cornell.edu
+    affiliation: Cornell University
+    orcid: 'https://orcid.org/0000-0001-5733-8932'
+repository-code: >-
+  https://github.com/larsvilhuber/transparency-statistical-agencies/
+abstract: >-
+  Journals require that you share your code and data in a replication package upon acceptance. Efficient reproducibility starts at the beginning of the research project. Following some best practices can not only help you prepare a replication package later, but also make you a more productive researcher.
+license: CC-BY-NC-4.0
+date-released: '2025-04-11'

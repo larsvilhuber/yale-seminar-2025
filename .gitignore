@@ -1,0 +1,14 @@
+_html
+.cache
+.config
+.local
+index_files
+
+
+/.quarto/
+.sh_history
+index.html
+paper.bib
+.Rproj.user
+_test
+.bash_history

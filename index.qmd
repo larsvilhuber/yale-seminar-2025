@@ -1,0 +1,79 @@
+---
+title: "Best Practices for Reproducible Science: Lessons from 2400+ Papers"
+author: 
+  - "Lars Vilhuber"
+date: 10 April 2025
+title-slide-attributes:
+  data-background-image: "images/lake-winter.jpg" 
+  data-background-size: "auto 50%"
+  data-background-position: "bottom"
+---
+
+
+
+```{r config,include=FALSE}
+source(here::here('global-libraries.R'))
+# The repository name
+
+message(Sys.getenv("GITHUB_REPOSITORY"))
+
+# Process the repository name to generate the URL
+# - split the two components
+# - combine them into a URL with 'github.io' in the middle
+
+GITHUB_REPOSITORY <- Sys.getenv("GITHUB_REPOSITORY")
+GITHUB_REPOSITORY_PARTS <- strsplit(GITHUB_REPOSITORY, "/")[[1]]
+REPOSITORY_URL <- paste0("https://github.com/", GITHUB_REPOSITORY)
+WEBSITE_URL <- paste0("https://", GITHUB_REPOSITORY_PARTS[1], ".github.io/", GITHUB_REPOSITORY_PARTS[2])
+
+```
+
+
+```{r, child=c(here::here('00-qrcode.md'))}
+```
+
+```{r, child=c(here::here('00-disclaimer.md'))}
+```
+
+```{r, child=c(here::here('00-whoami.md'))}
+```
+
+```{r, child=c(here::here('01-goal.md'))}
+```
+
+```{r, child=c(here::here('02-reproducibility.md'))}
+```
+
+```{r, child=c(here::here('03-goals-take2.md'))}
+```
+
+
+```{r, child=c(here::here('30-how.md'))}
+```
+
+```{r, child=c(here::here('40-where-to.md'))}
+```
+
+
+
+
+# Thank you {background-image="images/lake-autumn.jpg" background-size="contain" background-position="bottom"}
+
+
+
+# Appendix
+
+
+
+```{r, child=c(here::here('99-links.md'))}
+```
+
+```{r, child=c(here::here('02-reproducibility-extra.md'))}
+```
+
+
+```{r, child=c(here::here('10-benefits.md'))}
+```
+
+```{r, child=c(here::here('90-outsourced.md'))}
+```
