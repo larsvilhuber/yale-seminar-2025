@@ -55,6 +55,8 @@ WEBSITE_SHORT <- paste0(GITHUB_REPOSITORY_PARTS[1], ".github.io/", GITHUB_REPOSI
 ```{r, child=c(here::here('40-where-to.md'))}
 ```
 
+```{r, child=c(here::here('75-thanks.md'))}
+```
 
 
 
