@@ -100,6 +100,7 @@ jobs:
     - name: Move stuff
       run: |
           ls -lR
+          mkdir website
           mv artifact-presentation website/presentation
           mv artifact-presentation-pdf/index.pdf website/presentation/presentation.pdf
     # Prepare the GitHub Pages action
